@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap");
+
+html {
+  background-image: url("/images/pexels-rfstudio-3819572.jpg");
+  background-size: 520px;
+  background-repeat: no-repeat;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.Footimage {
+  width: 300px;
+}
+div.head span img {
+  width: 120px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+span.hrline hr {
+  margin-top: 25px;
+  height: 1px;
+  display: inline-block;
+  background-color: #000;
+  width: 350px;
+  margin-left: 100px;
+}
+
+div.head {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+nav ul li {
+  display: flex;
+  display: inline;
+  margin-left: 20px;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+  color: #545050a0;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: 400;
+}
+nav ul li a:hover {
+  color: #000;
+  font-weight: 400;
+}
+main {
+  margin-left: 40%;
+}
+.crea {
+  margin-top: -50px;
+  position: absolute;
+  font-size: 60px;
+  -webkit-text-stroke: 5px black;
+  -webkit-text-fill-color: transparent;
+}
+.tivity {
+  margin-top: 30px;
+  margin-left: 150px;
+  position: absolute;
+  font-size: 60px;
+}
+span.ingridiant h4 {
+  display: inline-block;
+
+  position: relative;
+  margin-top: 200px;
+  width: 90px;
+  color: #545050a0;
+  font-size: 20px;
+  margin-left: 480px;
+}
+span.check {
+  position: absolute;
+  margin-top: 300px;
+}
+span.check button {
+  padding: 10px 75px;
+  border: none;
+  font-weight: 400;
+  color: #fff;
+  background-color: #545050;
+}
+span.social {
+  margin-top: -300px;
+  margin-left: 800px;
+  display: flex;
+  flex-direction: column;
+}
+span.social img {
+  width: 30px;
+  margin-top: 30px;
+}
+section.lowerpart {
+  margin-left: 40%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+span.one {
+  position: relative;
+  width: 200px;
+
+  margin-top: 125px;
+}
+span.one ul li {
+  margin-top: 20px;
+}
+span.two {
+  margin-top: 60px;
+
+  font-size: 12px;
+  height: 300px;
+}
+span.arrow img {
+  margin-top: 200px;
+  height: 100px;
+  margin-left: 180px;
+}
+.vl {
+  border-left: 2px solid #000;
+  height: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: -74px;
+  top: 29px;
+  z-index: -10;
+}
+.v2 {
+  border-left: 2px solid #42424298;
+  height: 43px;
+  position: absolute;
+  left: 50%;
+  margin-left: -74px;
+  top: 48px;
+  z-index: -10;
+}
+.v3 {
+  border-left: 2px solid #42424298;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  margin-left: -74px;
+  top: 90px;
+  z-index: -10;
+}
+.v4 {
+  border-left: 2px solid #42424298;
+  height: 70px;
+  position: absolute;
+  left: 50%;
+  margin-left: -74px;
+  top: 140px;
+  z-index: -10;
+}
